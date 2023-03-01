@@ -45,3 +45,58 @@ h1 {
     padding: 0px;
     font-weight: bold;
 }
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.login-box input[type="reset"] {
+    border: none;
+    background: transparent;
+    color: blue;
+}
+
+.login-box input[type="reset"]:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    border-radius: 20px;
+    background: rgba(255, 0, 0, 0.817);
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fff;
+    color: black;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-box a:hover {
+    color: rgba(255, 0, 0, 0.817);
+}
